@@ -65,6 +65,12 @@ main nav ol li div button.plus {
   font-size: 2rem;
   color: white;
 }
+main section {
+  display: flex;
+  justify-content: flex-start;
+  font-size: 2rem;
+  
+}
 
 * {
   border: 2px solid red;
