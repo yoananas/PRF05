@@ -1,0 +1,55 @@
+/* import d'une police google */
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap');
+
+body {
+    margin: 0;
+    background-image: url(./image/pasta.jpg);
+    font-family: 'Comic Neue', cursive;
+}
+h1 {
+    font-size: 2.5rem; /* 2.5 X 16 = 40px */
+    margin: 15px 0 10px 15px; /* haut, droite, bas, gauche */
+    text-align: center;
+}
+h2 {
+    font-size: 1.8rem;
+    margin: 15px 0 10px 15px;
+}
+h3 {
+    font-size: 1.3rem;
+    margin: 15px 0 10px 0;
+}
+
+/* Faire en sortes que l'image ne fassent pas plus en largeur que son container */
+img {
+    max-width: 100%;
+}
+.col-4 {
+    float: left;
+    width: 33%;
+    height: 100%; /* 100% de son parent soit main*/
+}
+.col-4 div {
+    padding: 5%;
+    border: 1px solid black;
+    margin: 3%;
+    border-radius: 10px;
+    box-shadow:6px 6px 6px grey;
+    background-color: #DDDDDD;
+    height: 100%; /* 100% de son parent soit article*/
+}
+
+
+main:after {
+    clear: both;
+    content: "";
+    display: block;
+    border: 5px ;
+}
+span {
+    border: 2px solid black;
+    display: block;
+}
+p {
+    display: block;
+}

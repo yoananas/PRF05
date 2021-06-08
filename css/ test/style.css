@@ -1,0 +1,54 @@
+/* Sélecteur universelle */
+/**
+{
+    border: 1px solid black;
+}*/
+body {
+    font-family:"Fira Sans", Arial, sans-serif;
+   }
+h1 {
+  background-color: gray;
+}
+h2 {
+  background-color: crimson;
+}
+p {
+  background-color: #cccccc;
+}
+/* Sélection par type */
+body {
+  color: black;
+}
+/* Sélecteur par descendance */
+header p {
+  color: palevioletred;
+}
+/* Le caractère ">" permet de préciser que l'on sélectionne uniquement les enfants directs et non pas tout les descendants */
+main > p {
+  color: crimson;
+}
+main section p {
+    color: black;
+}
+footer p {
+  color: blue;
+}
+footer h2 {
+    background-color: royalblue;
+}
+/* Selecteur par classe */
+.underline {
+    border-bottom: 3px solid black;
+}
+.boxs {
+    border: 1px solid black;
+}
+/* Selecteur par identité */
+#first-news {
+    font-size: 2em ;
+    color: crimson;
+    font-weight: bold;
+    border: 3px solid black;
+    border-radius: 8px;
+    padding: 20px;
+}

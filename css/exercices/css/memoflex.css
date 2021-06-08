@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap");
+body {
+  font-family: "Comic Neue", cursive;
+  background-color: rgb(194, 194, 194);
+}
+
+body > header {
+  display: flex;
+  justify-content: center;
+  font-size: 3rem;
+  background-color: grey;
+  color: white;
+}
+body > header div img {
+  width: 1em;
+}
+body > header h1 span {
+  color: #28a745;
+}
+
+.ul-main-nav {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.ul-main-nav li {
+  margin: 0 15px;
+}
+.ul-main-nav li button {
+  background-color: grey;
+  color: white;
+  font-size: 2rem;
+  border-radius: 10px;
+  height: 3rem;
+}
+.ul-main-nav li button.plus {
+  background-color: #28a745;
+  width: 3rem;
+  height: 3rem;
+}
+body > p {
+  font-size: 2.3rem;
+  margin-left: 6rem;
+}
+.ol-sub-nav {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.ol-sub-nav li {
+  margin: 0 50px;
+}
+.ol-sub-nav li h2 {
+  font-size: 2rem;
+  border: solid white;
+
+}
+
+main nav ol li div button.plus {
+  background-color: #28a745;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 10px;
+  font-size: 2rem;
+  color: white;
+}
+
+* {
+  border: 2px solid red;
+}
+
+/* span.icon-cog:after {
+ }
+ button:hover {
+   backgound-color: red;
+   color: white;
+   cursor: pointer;
+ } */
+
+/*
+.col-4 {
+display: flex;
+justify-content: center;
+
+}
+.col-4 div {
+  padding: 3%;
+  border: 2px solid black;
+  margin: 1%;
+  border-radius: 10px;
+  box-shadow: 6px 6px 6px grey;
+  background-color: #dddddd;
+  
+}
+.col-5 {
+  display: flex;
+  justify-content: center;
+}
+.col-5 div {
+  width: 15%;
+  border: 1px solid black;
+  background-color: rgb(255, 255, 255);
+  border-radius: 7px;
+}*/

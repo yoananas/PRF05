@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap");
+/* Conteneur */
+section {
+  border: 3px solid black;
+  display: flex;
+  height: 400px;
+  /* Definition de l'axe principal */
+  flex-direction: row;
+
+  /* Alignement sur l'axe principal */
+  justify-content: space-around;
+
+  /* Alignement sur l'axe secondaire */
+  align-items: stretch;
+  /* Passage à la ligne */
+  flex-wrap: wrap;
+}
+
+
+/* Les contenus */
+section article {
+  border: 3px solid orangered;
+  flex-basis: 30%;
+  padding: 5px;
+  height: 150px;
+  margin: 20px 0;
+
+}
+/* Un contenue */
+#article-3{
+    align-items: flex-start;
+    height: auto;
+}
+body {
+  font-family: "Comic Neue", cursive;
+}
