@@ -14,8 +14,16 @@ body > header {
 body > header div img {
   width: 1em;
 }
+.wrapper-logo-icon:hover {
+  color: rgb(75, 75, 75);
+  cursor: pointer;
+}
 body > header h1 span {
   color: #28a745;
+}
+.icon-user:hover {
+  color: #239c40;
+  cursor: pointer;
 }
 
 .ul-main-nav {
@@ -34,46 +42,113 @@ body > header h1 span {
   border-radius: 10px;
   height: 3rem;
 }
+.ul-main-nav li button:hover {
+  background-color: rgb(110, 109, 109);
+}
+
 .ul-main-nav li button.plus {
   background-color: #28a745;
   width: 3rem;
   height: 3rem;
 }
-body > p {
+.ul-main-nav li button.plus:hover {
+  background-color: #22923d;
+}
+body > h2 {
   font-size: 2.3rem;
   margin-left: 6rem;
 }
-.ol-sub-nav {
+
+
+main .all-section-cards {
+  display: flex;
+  justify-content: space-between;
+  font-size: 2rem;
+}
+main section .section-card {
+  flex-basis: 0px;
+  flex-grow: 1;
+  margin: 0 10px;
+
+  border: 2px solid green;
+}
+main section .section-card h3 {
+  margin-left: 25px;
+}
+main section article {
+  background-color: grey;
+  color: white;
+  padding: 1.6rem;
+  padding-left: 60px;
+  margin-top: 20px;  
+  border-radius: 7px;
+  border: 2px solid red;
+}
+
+.réponse {
+  background-color:rgb(226, 157, 29);
+  font-size: 1rem;
+  padding: .5rem;
+  margin-top: rem;
+  border-radius: 7px;
+}
+.réponse:hover {
+  background-color: rgb(194, 134, 24);
+}
+
+
+.wrapper-button-title {
+  display: flex;
+}
+button.plus {
+background-color: #28a745;
+width: 3rem;
+height: 3rem;
+border-radius: 10px;
+font-size: 2rem;
+color: white;
+}
+.plus:hover {
+background-color: #22923d;
+}
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: gray;
+  border: 1px solide transparent;
   display: flex;
   justify-content: center;
-  margin-top: 30px;
+  padding: 20px;
 }
-.ol-sub-nav li {
-  margin: 0 50px;
-}
-.ol-sub-nav li h2 {
-  font-size: 2rem;
-  border: solid white;
-
-}
-
-main nav ol li div button.plus {
-  background-color: #28a745;
-  width: 3rem;
-  height: 3rem;
-  border-radius: 10px;
-  font-size: 2rem;
+footer a {
   color: white;
+  text-decoration: none;
 }
-main section {
-  display: flex;
-  justify-content: flex-start;
-  font-size: 2rem;
-  
+footer a:hover {
+  color:black;
+  cursor: pointer;
 }
-
+button:hover {
+  backgound-color: red;
+  color: white;
+  cursor: pointer;
 * {
   border: 2px solid red;
+}
+
+/* Média queries *************************************************/
+@media screen and (max-width:768px) {
+  main {
+    flex-direction: column;
+  }
+  .icon-menu-outlines {
+    display: block;
+    margin: 15px 0 0 15px;
+    border: 0;
+    background-color: transparent;
+    font-size: 1.6rem;
+  }
 }
 
 /* span.icon-cog:after {
