@@ -7,13 +7,11 @@ body {
 body > header {
   display: flex;
   justify-content: center;
-  font-size: 3rem;
+  font-size: 2rem;
   background-color: grey;
   color: white;
 }
-body > header div img {
-  width: 1em;
-}
+
 .wrapper-logo-icon:hover {
   color: rgb(75, 75, 75);
   cursor: pointer;
@@ -75,11 +73,15 @@ main section .section-card {
 main section .section-card h3 {
   margin-left: 25px;
 }
+main section section article span {
+
+
+}
 main section article {
   background-color: grey;
   color: white;
   padding: 1.6rem;
-  padding-left: 60px;
+  padding-left: 30px;
   margin-top: 20px;  
   border-radius: 7px;
   border: 2px solid red;
@@ -112,7 +114,7 @@ color: white;
 background-color: #22923d;
 }
 footer {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   width: 100%;
   background-color: gray;
@@ -130,9 +132,10 @@ footer a:hover {
   cursor: pointer;
 }
 button:hover {
-  backgound-color: red;
+  background-color: red;
   color: white;
   cursor: pointer;
+}
 * {
   border: 2px solid red;
 }

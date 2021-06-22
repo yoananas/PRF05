@@ -7,11 +7,12 @@
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/memoflex.css" />
     <link rel="stylesheet" href="../../css/fontello/css/fontello.css" />
+    <link rel="stylesheet" href="../../bootstrap/css/bootstrap-4.6/css/bootstrap.css">
   </head>
   <body>
     <header>
       <div class="wrapper-logo-icon">
-        <img src="images/memomoo.png" alt="" />
+        <img src="images/memomoo48.png" alt="" />
       </div>
       <h1 id="title-memomoo">MemoMoo <span class="icon-user"></span></h1>
     </header>
@@ -38,7 +39,8 @@
             <h3>À apprendre</h3>
           </div>
           <article>
-            <span class=" icon-left-circled"></span> <h4>Qui est l'inventeur du web ? </h4> <span class="icon-right-circled"></span>
+            <div class="d-flex justify-content-between"><span role="button" class="icon-left-circled  h2"></span><span role="button" class="icon-right-circled h2"></span></div>
+            <h4>Qui est l'inventeur du web ? </h4>
             <button class="réponse">Proposer une réponse</button>
           </article>
         </section>
@@ -48,6 +50,7 @@
             <h3>Je sais un peu</h3>
           </div>
           <article>
+            <div class="d-flex justify-content-between"><span role="button" class="icon-left-circled h2"></span><span role="button" class="icon-right-circled h2"></span></div>
             <h4>Quesque le WEB ?</h4>
             <button class="réponse">Proposer une réponse</button>
           </article>
@@ -58,6 +61,7 @@
             <h3>Je sais bien</h3>
           </div>
           <article>
+            <div class="d-flex justify-content-between"><span role="button" class="icon-left-circled h2"></span><span role="button" class="icon-right-circled h2"></span></div>
             <h4>De quoi est composé une url ?</h4>
             <button class="réponse">Proposer une réponse</button>
           </article>
@@ -68,6 +72,7 @@
             <h3>Je sais parfaitement</h3>
           </div>
           <article>
+            <div class="d-flex justify-content-bet"><span role="button" class="icon-left-circled mr-5 h2"></span><span role="button" class="icon-right-circled ml-5 h2"></span></div>
             <h4>Ou est situé Scotland sur une carte ?</h4>
             <button class="réponse">Proposer une réponse</button>
           </article>
@@ -75,8 +80,8 @@
       </section>
       
     </main>
-    <footer>
-    <a href=".">Les cartes des autres</a>
-    </footer>
+    <footer
+      class="container-fluid d-flex justify-content-center fixed-bottom text-light bg-dark p-2">
+      <a href="https://previews.123rf.com/images/mizar21984/mizar219841702/mizar21984170200017/71887109-gros-tas-de-cartes-%C3%A0-jouer-en-gros-plan.jpg" role="button" class="text-white">Les cartes des autres</a>    </footer>
   </body>
 </html>

@@ -1,0 +1,26 @@
+
+body {
+    border: 5px solid red;
+  }
+  .text-over {
+    min-height: 485px;
+    border: 1px solid black;
+  }
+  #sandy {
+    background: url(../image/visuel_ok_2021.jpg) no-repeat;
+  
+    color: white;
+    background-size: contain;
+  }
+  #rouge-eternel {
+    background: url(../image/7_le-rouge-eternel-des-coquelicots-2cc.-raynaud-de-lage.jpg)
+      no-repeat;
+  
+    color: white;
+    background-size: contain;
+  }
+  #mitia {
+    background: url(../image/mitia_fedotenko_-_akhmatmodi.jpg) no-repeat;
+    color: white;
+    background-size: contain;
+  }
