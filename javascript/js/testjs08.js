@@ -2,14 +2,13 @@
 const p1 = {
     name: "Bob",
     lastname: "Marley",
-    vote: () => {
+    vote: function ()  {
         console.log(`${this.name} a voté`);
     }
 };
 // Création d'un alias
 const p2 = p1; {
-    name: "Bob",
-};
+    name: "Bob"};
 // ==, >, < compare ( === compare)
 if (p1 == p2) {
     console.log(`p1 égal p2`);
@@ -29,3 +28,5 @@ for (property in p1) {
 console.log(`Prénom de p1 : `, p1["firstname"]);
 console.log(`Prénom de p1 : `, p1[firstname]);
 console["log"](`Hello`);
+p1.vote();
+p1["vote"]();
