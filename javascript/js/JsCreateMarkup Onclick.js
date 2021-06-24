@@ -32,26 +32,14 @@ function createMarkup(markup_name, text, parent, attribute) {
     return markup;
   }
 
-  function test() {
-      console.log(`test`);
-      return "test";
-  }
-  // On affecte à i le xxx de la fonction "test()"
-  const i = test();
-  // "i" est une variable qui stock le return de la fonction appelé "test()"
-  // mais elle ne retourne rien donc "i" ne stock rien
+  const button = createMarkup("button", "Ajouter un paragraphe", document.body);
 
-  // Création d'un élément du DOM (h2), ajout en son sein du texte "Titre 2"
-  // ,positionnement en dernier fils de "body" et ajout de l'attribut class 
-  // avec pour valeur "text-warning"
-  const h2 = createMarkup("h2", `Titre 2`,document.body,{
-      name: "class",
-      value:"text-warning",
-    }); 
+  button.onclick = handleClickOnButton;
 
+  function handleClickOnButton() {
+      console.log(`Dans handleClickOnButton`);
+    // Ajout d'un élément du DOM P (paragraphe) comme dernier fils de
+    // body et avec le texte "Lorem Ipsum"
+    createMarkup("p", "Lorem ipsum", )
+    }
 
-    // Comment affecter à la propriété onclick de l'élément du DOM créé
-    // (h2) une fonction qui permettra de mettre en rouge son texte ?
-    h2.onclick = function() {
-        h2.style.color = "red";
-    };
