@@ -1,0 +1,27 @@
+#modal {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: 0, 0, 0, 0.5;
+}
+
+#modal > div {
+    width: 39%;
+    height: 39%;
+    border-radius: 5px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.btn-close {
+    align-self: flex-end;
+    
+}
